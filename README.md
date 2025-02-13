@@ -74,14 +74,33 @@ python main.py
 │   ├── twitter_training.csv
 │   ├── twitter_validation.csv
 ├── src/
-│   ├── main.py  # Main entry point
-│   ├── training_model.py  # Model training script
-│   ├── validation.py  # Model validation script
+│   ├── main.py  
+│   ├── training_model.py  
+│   ├── validation.py  
 │   ├── preprocess.py  # Data preprocessing
-│   ├── model_definition.py  # Neural network layers
-├── models/
-│   ├── model_parameters.pkl  # Saved model
+│   ├── model_definition.py  
+├── experiments/
+│   ├── train  # Saved model
 ├── notebooks/
 │   ├── analysis.ipynb  # Jupyter Notebook for experimentation
 ├── README.md  # Project documentation
+
+/mlp-emotion-classifier
+├── /data
+│   ├── twitter_training.csv
+│   ├── twitter_validation.csv
+├── /src
+│   ├── main.py  # Main entry point
+│   ├── model_definition.py # Neural network layers
+│   ├── training_model.py  # Model training script
+│   ├── training_df.py
+│   ├── validation.py # Model validation script
+│   ├── validation_df.py
+├── /experiments
+│   ├── training-draft.py
+├── /models
+│   ├── model_parameters.pkl
+├── .gitignore
+├── README.md
+
 ```
